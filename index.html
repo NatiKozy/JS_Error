@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NPM</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <main>
+        <h1>Что ищем?</h1>
+        <form id="form">
+        <select name="select" id="select">
+            <option>Фильмы</option>
+            <option>Люди</option>
+            <option>Планеты</option>
+        </select>
+        <input type="number" id="number" min="1">
+        <button id="button">Искать!</button>
+    </form>
+    <div id="data"></div>
+    <div id="error"></div>
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>

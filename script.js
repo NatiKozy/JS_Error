@@ -1,0 +1,12 @@
+const form = document.getElementById('form');
+console.log(form);
+const select = document.getElementById('select');
+console.log(select);
+const number = document.getElementById('number');
+console.log(number);
+const button = document.getElementById('button');
+console.log(button);
+const errorDiv = document.getElementById('error');
+console.log(errorDiv);
+const dataDiv = document.getElementById('data');
+console.log(dataDiv);
